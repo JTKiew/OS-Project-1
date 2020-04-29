@@ -21,12 +21,10 @@ demo:
 	sudo ./main < Input/PSJF_4.txt  
 	dmesg | grep Project
 	sudo dmesg -C	
-Time:
+Run:
 	sudo dmesg -C
 	sudo ./main < Input/TIME_MEASUREMENT.txt > Output/TIME_MEASUREMENT_stdout.txt
 	dmesg | grep Project > Output/TIME_MEASUREMENT_dmesg.txt
-	sudo dmesg -C
-FIFO:
 	sudo dmesg -C
 	sudo ./main < Input/FIFO_1.txt > Output/FIFO_1_stdout.txt
 	dmesg | grep Project > Output/FIFO_1_dmesg.txt
@@ -43,8 +41,6 @@ FIFO:
 	sudo ./main < Input/FIFO_5.txt > Output/FIFO_5_stdout.txt
 	dmesg | grep Project > Output/FIFO_5_dmesg.txt
 	sudo dmesg -C
-RR:
-	sudo dmesg -C
 	sudo ./main < Input/RR_1.txt > Output/RR_1_stdout.txt
 	dmesg | grep Project > Output/RR_1_dmesg.txt
 	sudo dmesg -C
@@ -60,8 +56,6 @@ RR:
 	sudo ./main < Input/RR_5.txt > Output/RR_5_stdout.txt
 	dmesg | grep Project > Output/RR_5_dmesg.txt
 	sudo dmesg -C
-SJF:
-	sudo dmesg -C
 	sudo ./main < Input/SJF_1.txt > Output/SJF_1_stdout.txt
 	dmesg | grep Project > Output/SJF_1_dmesg.txt
 	sudo dmesg -C
@@ -76,8 +70,6 @@ SJF:
 	sudo dmesg -C
 	sudo ./main < Input/SJF_5.txt > Output/SJF_5_stdout.txt
 	dmesg | grep Project > Output/SJF_5_dmesg.txt
-	sudo dmesg -C
-PJSF:
 	sudo dmesg -C
 	sudo ./main < Input/PSJF_1.txt > Output/PSJF_1_stdout.txt
 	dmesg | grep Project > Output/PSJF_1_dmesg.txt
