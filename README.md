@@ -4,5 +4,5 @@
 
 #Compile
 - use ```make``` to compile *.c file 
-- use ```make Time/FIFO/RR/SJF/PSJF``` to run the test
+- use ```make Run``` to run the test
 - use ```make demo``` to run the demo
